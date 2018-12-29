@@ -9,9 +9,9 @@
             <form method="POST" action="/projects/{{ $project->id }}">
 
                 @method('PATCH');
-
-                @method('DELETE');
                 @csfr
+                {{-- @method('DELETE'); --}}
+              
                 
                 <div>
                     <label class="label" for="title">Title</label>
